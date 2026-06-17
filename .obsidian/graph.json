@@ -1,5 +1,5 @@
 {
-  "collapse-filter": false,
+  "collapse-filter": true,
   "search": "path:wiki -file:index -file:hot -file:log -file:overview -path:wiki/sources",
   "showTags": false,
   "showAttachments": false,
