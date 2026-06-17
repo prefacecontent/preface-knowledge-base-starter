@@ -1,11 +1,11 @@
 ---
 type: entity
-title: "<% tp.file.title %>"
+title: "{{title}}"
 entity_type: person
 role: ""
 first_mentioned: "[[]]"
-created: <% tp.date.now("YYYY-MM-DD") %>
-updated: <% tp.date.now("YYYY-MM-DD") %>
+created: {{date:YYYY-MM-DD}}
+updated: {{date:YYYY-MM-DD}}
 tags:
   - entity
 status: seed
@@ -13,7 +13,7 @@ related: []
 sources: []
 ---
 
-# <% tp.file.title %>
+# {{title}}
 
 ## Overview
 

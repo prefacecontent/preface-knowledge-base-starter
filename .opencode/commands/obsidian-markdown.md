@@ -1,6 +1,7 @@
 ---
-description: Obsidian Flavored Markdown syntax reference — wikilinks, embeds, callouts, properties, tags, highlights, math, and canvas.
+description: Reference for correct Obsidian Flavored Markdown — wikilinks, embeds, callouts, properties, tags, highlights, and math syntax.
 ---
-Load the obsidian-markdown skill and show the full syntax reference for Obsidian Flavored Markdown.
 
-Cover: [[Wikilinks]], ![[Embeds]], > [!type] callouts, YAML frontmatter properties, tags, highlights, math blocks, and canvas syntax.
+Read the `obsidian-markdown` skill. Then answer the user's syntax question or apply the correct syntax to whatever they are writing.
+
+Use this as the canonical Obsidian syntax reference when creating or editing any wiki page.

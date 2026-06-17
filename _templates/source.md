@@ -1,15 +1,15 @@
 ---
 type: source
-title: "<% tp.file.title %>"
+title: "{{title}}"
 source_type: article
 author: ""
-date_published: <% tp.date.now("YYYY-MM-DD") %>
+date_published: {{date:YYYY-MM-DD}}
 url: ""
 confidence: medium
 key_claims:
   - ""
-created: <% tp.date.now("YYYY-MM-DD") %>
-updated: <% tp.date.now("YYYY-MM-DD") %>
+created: {{date:YYYY-MM-DD}}
+updated: {{date:YYYY-MM-DD}}
 tags:
   - source
 status: seed
@@ -17,7 +17,7 @@ related: []
 sources: []
 ---
 
-# <% tp.file.title %>
+# {{title}}
 
 ## Summary
 

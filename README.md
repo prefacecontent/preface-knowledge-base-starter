@@ -22,7 +22,7 @@ your-brain/
     comparisons/        structured A-vs-B comparisons
     synthesis/          joined-up playbooks and analyses
     sessions/           saved conversations and session notes
-    context/            WHO THIS BRAIN IS  (fill these in first)
+    context/            WHO THIS BRAIN IS  (the identity layer)
     index.md log.md hot.md overview.md
   skills/               identity, wiki-ingest, wiki-query, wiki-lint, save, autoresearch, obsidian-markdown, think
   AGENTS.md             how the agent should behave
@@ -30,10 +30,11 @@ your-brain/
 
 ## How to use it
 
-1. Open this folder in Obsidian with "Open folder as vault" (do not create a new vault). The graph view, accent colour and excluded scaffolding are already configured. Also open it in your agent (OpenCode, Claude Code, Codex).
-2. Fill in `wiki/context/` by running the `identity` skill. It interviews you section by section and writes the files for you (it can also web-search to fill gaps, with your permission). You can do it in passes, and edit the templates by hand if you prefer.
-3. Drop your sources into `raw/`.
-4. Ask the agent to run `wiki-ingest`. It builds linked pages in `wiki/`.
-5. Ask questions with `wiki-query`. Answers come with sources, in your voice.
+1. Open this folder in your agent (OpenCode, Claude Code, Codex). The course uses OpenCode.
+2. Drop your sources into `raw/`: any files (PDFs, slides, notes, exports), or ask the agent to research a topic and write them there.
+3. Ask the agent to run `wiki-ingest`. It builds linked pages in `wiki/`.
+4. Open this folder in Obsidian with "Open folder as vault" (do not create a new vault). The graph view, accent colour and excluded scaffolding are already configured.
+5. Run the `identity` skill to fill `wiki/context/`. It interviews you section by section and writes the files for you (it can also web-search to fill gaps, with your permission). This is what turns a knowledge base into a digital replica.
+6. Ask questions with `wiki-query`. Answers come with sources, in your voice.
 
 The context layer in `wiki/context/` is what turns a knowledge base into a digital replica. The `identity` skill is how you fill it. Spend time on it.

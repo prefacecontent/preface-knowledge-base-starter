@@ -28,10 +28,12 @@ On any task, before anything else:
 ## The skills (in `skills/`)
 
 Each skill is a folder under `skills/` with a `SKILL.md`. They are surfaced per harness:
-Claude Code reads them via the `.claude/skills/` symlinks; OpenCode runs them via the matching
-slash-command in `.opencode/commands/` (each command loads its skill); other agents can read the
-`skills/` folders directly. OpenCode regenerates `.opencode/package.json` + `node_modules` on first
-run (gitignored).
+Claude Code reads them from `.claude/skills/`; other agents read `.agents/skills/`; both are
+real copies of `skills/` (committed as plain folders so they survive a clone on any OS, including
+Windows). OpenCode runs each skill via the matching slash-command in `.opencode/commands/` (each
+command loads its skill). OpenCode regenerates `.opencode/package.json` + `node_modules` on first
+run (gitignored). If you edit a skill in `skills/`, mirror the change into `.claude/skills/` and
+`.agents/skills/`.
 
 | Skill | Use |
 |---|---|
@@ -46,10 +48,11 @@ run (gitignored).
 
 ## How to start (first run)
 
-1. Fill in `wiki/context/` by running the `identity` skill; it interviews you and fills the files (or edit the templates by hand, starting with `core.md`).
-2. Drop source material into `raw/`.
-3. Run `wiki-ingest` to build the knowledge base.
-4. Ask questions with `wiki-query`.
+1. Drop source material into `raw/` (any files, or ask the agent to research a topic and write them there).
+2. Run `wiki-ingest` to build the knowledge base from `raw/`.
+3. Open this folder in Obsidian ("Open folder as vault") to browse the pages and the graph.
+4. Run the `identity` skill to fill `wiki/context/`; it interviews you and fills the files (or edit the templates by hand, starting with `core.md`). This is what turns the knowledge base into a digital replica.
+5. Ask questions with `wiki-query`.
 
 ## Graph rule (Obsidian)
 

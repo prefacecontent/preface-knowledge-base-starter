@@ -1,17 +1,18 @@
 ---
-description: Apply the 10-principle thinking loop (OBSERVE-LISTEN-THINK-CONNECT-FEEL-ACCEPT-CREATE-GROW) to a non-trivial problem.
+description: Apply the 10-principle thinking loop to a non-trivial problem — structured observation, metacognition, first-principles analysis, and iterative growth.
 ---
-Load the think skill and walk through the full 10-principle loop for the following problem.
 
-1. OBSERVE (external) — gather facts
-2. OBSERVE (internal) — check biases
-3. LISTEN — surface what you are not hearing
-4. THINK — first principles analysis
-5. CONNECT (lateral) — cross-domain patterns
-6. CONNECT (system) — orchestrate perspectives
-7. FEEL — intuition check
-8. ACCEPT — intellectual humility
-9. CREATE — generate outputs
-10. GROW — what did this cost or teach?
+Read the `think` skill. Then walk through the 10 principles in order for the user's problem:
 
-Problem: $ARGUMENTS
+1. OBSERVE (external input)
+2. OBSERVE (internal metacognition)
+3. LISTEN (active listening)
+4. THINK (first-principles analysis)
+5. CONNECT (lateral connection)
+6. CONNECT (system orchestration)
+7. FEEL (intuition)
+8. ACCEPT (intellectual humility)
+9. CREATE (generative output)
+10. GROW (iterative growth)
+
+Do not skip the uncomfortable ones. Loop back as new information emerges.

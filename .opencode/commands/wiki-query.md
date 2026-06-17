@@ -1,10 +1,12 @@
 ---
-description: Answer questions using the wiki vault — reads hot cache, index, and relevant pages, synthesizes answers with citations.
+description: Ask a question against the wiki — reads hot cache, index, and relevant pages, synthesizes an answer with citations, and files good answers back.
 ---
-Load the wiki-query skill and run the full query workflow.
 
-Start with wiki/hot.md (fast cache), then consult wiki/index.md for routing, drill into relevant pages, and synthesize an answer with citations.
+Read the `wiki-query` skill. Then run the query workflow:
 
-Question: $ARGUMENTS
+Usage:
+- `/wiki-query <question>` — standard mode (hot → index → drill).
+- `/wiki-query quick <question>` — hot cache only, fast.
+- `/wiki-query deep <question>` — read the full wiki and optionally supplement with web search.
 
-If the answer is valuable, offer to file it back as a wiki page.
+If the answer is valuable, offer to file it back into `wiki/synthesis/`.

@@ -1,6 +1,6 @@
 ---
 type: comparison
-title: "<% tp.file.title %>"
+title: "{{title}}"
 subjects:
   - "[[Subject A]]"
   - "[[Subject B]]"
@@ -8,8 +8,8 @@ dimensions:
   - "dimension 1"
   - "dimension 2"
 verdict: "Replace with one-line conclusion."
-created: <% tp.date.now("YYYY-MM-DD") %>
-updated: <% tp.date.now("YYYY-MM-DD") %>
+created: {{date:YYYY-MM-DD}}
+updated: {{date:YYYY-MM-DD}}
 tags:
   - comparison
 status: seed
@@ -17,7 +17,7 @@ related: []
 sources: []
 ---
 
-# <% tp.file.title %>
+# {{title}}
 
 ## Overview
 

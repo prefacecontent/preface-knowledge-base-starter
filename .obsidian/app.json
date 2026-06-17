@@ -7,7 +7,6 @@
   "userIgnoreFilters": [
     "raw/",
     "skills/",
-    "commands/",
     "_templates/",
     "AGENTS.md",
     "CLAUDE.md",

@@ -1,6 +1,13 @@
 ---
-description: Build the identity layer — interviews you section by section and fills wiki/context/ (core, identity, thinking, voice, policies, preferences).
+description: Build the identity layer. Interview the person section by section and fill out wiki/context/ so the agent can reason and write as them.
 ---
-Load the identity skill and start or resume the identity-building interview.
 
-Begin with wiki/context/core.md (the spine), then move through each context file one at a time, asking focused questions and writing answers directly into the files. Offer to web-search public info to fill gaps (with permission).
+Read the `identity` skill. Then run the interview workflow to fill `wiki/context/`.
+
+Usage:
+- `/identity` : check which context files are filled, then interview section by section for the rest.
+- `/identity core` : fill (or refine) just `core.md`, the spine.
+- `/identity voice` : fill (or refine) a specific section (`identity`, `thinking`, `voice`, `policies`, `preferences`).
+- `/identity refine` : review and improve already-filled sections.
+
+Detect already-filled sections and offer to skip or refine them; never overwrite human-reviewed content silently. Offer to web-search public information to fill gaps, with permission, and mark anything found as needing confirmation. English (UK), no em or en dashes.

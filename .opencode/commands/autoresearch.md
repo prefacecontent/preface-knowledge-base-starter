@@ -1,8 +1,15 @@
 ---
-description: Autonomous research loop — takes a topic, runs web searches, fetches sources, synthesizes findings, and files everything into the wiki.
+description: Run an autonomous research loop on a topic. Searches the web, synthesizes findings, and files everything into the wiki as structured pages.
 ---
-Load the autoresearch skill and run the research loop.
 
-Take the topic, run iterative web searches, fetch and read sources, synthesise findings into structured wiki pages, cross-link related pages, and file the master synthesis in wiki/synthesis/.
+Read the `autoresearch` skill. Then run the research loop.
 
-Topic: $ARGUMENTS
+Usage:
+- `/autoresearch [topic]` — research a specific topic.
+- `/autoresearch` — if no topic is given, ask "What topic should I research?"
+
+Before starting, read `skills/autoresearch/references/program.md` to load the research constraints and objectives.
+
+After research is complete, file pages into `wiki/sources/`, `wiki/entities/`, `wiki/concepts/`, and the master synthesis into `wiki/synthesis/`, then update `wiki/index.md`, `wiki/log.md`, and `wiki/hot.md`.
+
+Report how many pages were created and what the key findings are.

@@ -1,11 +1,11 @@
 ---
 type: concept
-title: "<% tp.file.title %>"
+title: "{{title}}"
 complexity: intermediate
 domain: ""
 aliases: []
-created: <% tp.date.now("YYYY-MM-DD") %>
-updated: <% tp.date.now("YYYY-MM-DD") %>
+created: {{date:YYYY-MM-DD}}
+updated: {{date:YYYY-MM-DD}}
 tags:
   - concept
 status: seed
@@ -13,7 +13,7 @@ related: []
 sources: []
 ---
 
-# <% tp.file.title %>
+# {{title}}
 
 ## Definition
 
