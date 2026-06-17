@@ -1,0 +1,16 @@
+{
+  "alwaysUpdateLinks": true,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "wiki",
+  "attachmentFolderPath": "_attachments",
+  "showUnsupportedFiles": false,
+  "userIgnoreFilters": [
+    "raw/",
+    "skills/",
+    "commands/",
+    "_templates/",
+    "AGENTS.md",
+    "CLAUDE.md",
+    "README.md"
+  ]
+}

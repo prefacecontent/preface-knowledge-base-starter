@@ -30,7 +30,7 @@ your-brain/
 
 ## How to use it
 
-1. Open this folder in Obsidian (it is a vault) and in your agent (OpenCode, Claude Code, Codex).
+1. Open this folder in Obsidian with "Open folder as vault" (do not create a new vault). The graph view, accent colour and excluded scaffolding are already configured. Also open it in your agent (OpenCode, Claude Code, Codex).
 2. Fill in `wiki/context/` by running the `identity` skill. It interviews you section by section and writes the files for you (it can also web-search to fill gaps, with your permission). You can do it in passes, and edit the templates by hand if you prefer.
 3. Drop your sources into `raw/`.
 4. Ask the agent to run `wiki-ingest`. It builds linked pages in `wiki/`.
