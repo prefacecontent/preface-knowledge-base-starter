@@ -25,7 +25,13 @@ On any task, before anything else:
 
 `wiki/context/` overrides the `wiki/` knowledge base and any learned-memory layer when they disagree.
 
-## The skills (in `skills/`, surfaced via `.claude/skills/`)
+## The skills (in `skills/`)
+
+Each skill is a folder under `skills/` with a `SKILL.md`. They are surfaced per harness:
+Claude Code reads them via the `.claude/skills/` symlinks; OpenCode runs them via the matching
+slash-command in `.opencode/commands/` (each command loads its skill); other agents can read the
+`skills/` folders directly. OpenCode regenerates `.opencode/package.json` + `node_modules` on first
+run (gitignored).
 
 | Skill | Use |
 |---|---|
